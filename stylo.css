@@ -1,0 +1,174 @@
+/* CSS Global */
+* {
+    margin: 0; /* Define margem zero para todos os elementos */
+    padding: 0; /* Define padding zero para todos os elementos */
+    box-sizing: border-box; /* Garante que padding e border não afetem as dimensões dos elementos */
+    font-family: sans-serif; /* Define a família de fontes para todo o documento */
+    text-decoration: none; /* Remove decoração de texto padrão (sublinhado, etc.) */
+}
+
+.container {
+    padding: 120px 80px; /* Espaçamento interno da div container */
+}
+
+.destaque {
+    font-weight: 700; /* Define o peso da fonte como bold */
+    font-style: italic; /* Define o estilo da fonte como itálico */
+}
+
+h3 {
+    font-size: 36px; /* Tamanho da fonte */
+    color: #3c184e; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    margin: 0 0 45px; /* Margens superior, direita e inferior (0 na margem superior, 45px na inferior) */
+}
+
+/* CSS Banner */
+.banner-topo {
+    background-image: url("IMG/banner-topo.jpg"); /* Imagem de fundo */
+    background-position: center; /* Posição da imagem de fundo */
+    background-size: cover; /* Redimensiona a imagem de fundo para cobrir todo o elemento */
+}
+
+.container-nome-logo {
+    max-width: 250px; /* Largura máxima do elemento */
+    color: #3c184e; /* Cor do texto */
+}
+
+.container-nome-logo img {
+    width: 50px; /* Largura da imagem */
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+}
+
+.nome-e-logo {
+    font-size: 24px; /* Tamanho da fonte */
+    color: #3c184e; /* Cor do texto */
+    margin: 0; /* Remove margem padrão */
+}
+
+.slogan {
+    font-size: 14px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    margin: 5px 0 0; /* Margens (topo 5px, inferior 0, esquerda/direita 0) */
+}
+
+.container-titulo-topo {
+    max-width: 1024px; /* Largura máxima do elemento */
+    border-radius: 10px; /* Raio da borda arredondada */
+    padding: 40px; /* Espaçamento interno */
+    margin: 70px auto 0; /* Margens (superior 70px, automática nas laterais, superior 0) */
+    background: #ffffffc4; /* Cor de fundo com transparência */
+    box-shadow: 0 8px 32px #1f26875e; /* Sombra com deslocamento, espalhamento e cor */
+}
+
+.titulo-topo {
+    font-size: 60px; /* Tamanho da fonte */
+    color: #3c184e; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    font-weight: 800; /* Peso da fonte */
+    margin: 0 0 40px; /* Margens (superior 0, direita/esquerda 0, inferior 40px) */
+}
+
+.link-fale-conosco {
+    text-align: center; /* Alinhamento do texto */
+    width: 200px; /* Largura do elemento */
+    padding: 10px 25px; /* Espaçamento interno */
+    font-size: 20px; /* Tamanho da fonte */
+    background-color: #3c184e; /* Cor de fundo */
+    border-radius: 10px; /* Raio da borda arredondada */
+    margin: 0 auto; /* Margens (automática nas laterais, superior/inferior 0) */
+}
+
+.link-fale-conosco a {
+    color: #ffff; /* Cor do texto do link */
+}
+
+.container-titulo-topo img {
+    width: 20px; /* Largura da imagem */
+}
+
+/* CSS Nossos Serviços */
+.box-servicos {
+    max-width: 800px; /* Largura máxima do elemento */
+    color: #3c184e; /* Cor do texto */
+    margin: 0 auto 50px; /* Margens (superior/inferior 0, automática nas laterais, inferior 50px) */
+}
+
+.box-servicos li {
+    font-size: 20px; /* Tamanho da fonte */
+    margin: 0 0 20px; /* Margens (superior 0, direita/esquerda 0, inferior 20px) */
+}
+
+.box-servicos-img {
+    max-width: 800px; /* Largura máxima do elemento */
+    margin: 0 auto; /* Margens (automática nas laterais, superior/inferior 0) */
+    text-align: center; /* Alinhamento do texto */
+}
+
+.box-servicos-img img {
+    box-shadow: 3px 6px 10px 6px #0000005c; /* Sombra com deslocamento, espalhamento e cor */
+    border-radius: 5px; /* Raio da borda arredondada */
+}
+
+/* CSS Faixa */
+.faixa {
+    background-color: #3c184e; /* Cor de fundo */
+    text-align: center; /* Alinhamento do texto */
+}
+
+.text-faixa {
+    max-width: 800px; /* Largura máxima do elemento */
+    margin: 0 auto 50px; /* Margens (superior/inferior 0, automática nas laterais, inferior 50px) */
+    color: #fff; /* Cor do texto */
+    font-size: 40px; /* Tamanho da fonte */
+}
+
+.redes-sociais a {
+    margin: 0 20px; /* Margens (superior/inferior 0, direita/esquerda 20px) */
+}
+
+.redes-sociais img {
+    width: 50px; /* Largura da imagem */
+    height: 50px; /* Altura da imagem */
+}
+
+/* CSS Marcas */
+.principais-marcas .container-marcas {
+    max-width: 800px; /* Largura máxima do elemento */
+    margin: 0 auto; /* Margens (automática nas laterais, superior/inferior 0) */
+    text-align: center; /* Alinhamento do texto */
+}
+
+.principais-marcas .logo-marca {
+    width: 148px; /* Largura da imagem */
+    height: 148px; /* Altura da imagem */
+    margin: 0 15px; /* Margens (superior/inferior 0, direita/esquerda 15px) */
+}
+
+/* CSS Onde estamos */
+.onde-estamos {
+    text-align: center; /* Alinhamento do texto */
+}
+
+.onde-estamos p {
+    color: #3c184e; /* Cor do texto */
+    font-size: 20px; /* Tamanho da fonte */
+    margin: 0 0 45px; /* Margens (superior 0, direita/esquerda 0, inferior 45px) */
+}
+
+.onde-estamos iframe {
+    width: 800px; /* Largura do iframe */
+    height: 450px; /* Altura do iframe */
+}
+
+/* CSS Rodapé */
+.rodape {
+    background-color: #3c184e; /* Cor de fundo */
+    padding: 10px 0; /* Espaçamento interno (topo/baixo 10px, direita/esquerda 0) */
+}
+
+.text-rodape {
+    color: #fff; /* Cor do texto */
+    font-size: 12px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+}
